@@ -24,7 +24,7 @@ Eg:1414689783 192.168.1.10 0 87
 
 ###Query:
  - The data is read from the input path and written into HashMaps.
- - The data Structure maintained is HashMap<IpAddress, HashMap<CPU_ID, List<Obj(TimeStamp, CPU_Usage)>>>
+ - The data Structure maintained is HashMap<\IpAddress, HashMap<\CPU_ID, List<Obj(TimeStamp, CPU_Usage)>>>
  - Indexing of a HashMap is O(1) and iterating through a list is O(n).
  - While querying for the data we sort the List, leading to O(nlogn) Complexity. The range is then found by iterating from the start and end of this sorted list, simultaneously. 
 
